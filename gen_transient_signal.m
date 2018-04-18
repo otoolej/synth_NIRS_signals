@@ -15,14 +15,14 @@
 %     x_trans=gen_transient_signal(12*60*60,1/6);
 %
 %     figure(1); hold all; 
-%     ttime=(1:length(x))./600;
+%     ttime=(1:length(x_trans))./600;
 %     plot(ttime,x_trans); 
 %     xlabel('time (hours)');
 
 % John M. O' Toole, University College Cork
 % Started: 19-05-2017
 %
-% last update: Time-stamp: <2018-04-17 17:49:05 (otoolej)>
+% last update: Time-stamp: <2018-04-18 16:39:34 (otoolej)>
 %-------------------------------------------------------------------------------
 function [x,N_total_imp]=gen_transient_signal(dur_secs,Fs)
 if(nargin<1 || isempty(dur_secs)), dur_secs=12*60*60; end
