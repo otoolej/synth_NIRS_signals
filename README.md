@@ -7,9 +7,17 @@ events. Full details can be found in:
 
 `JM O' Toole, EM Dempsey, and GB Boylan "Extracting transients from cerebral oxygenation
 signals of preterm infants: a new singular-spectrum analysis method", Int. Conf. IEEE
-Eng. Med. Biol. Society (EMBC), Honolulu, HI; IEEE, July 2018.`
-   
-Please cite the above reference if using this code to generate new results. 
+Eng. Med. Biol. Society (EMBC), Honolulu, HI; IEEE, July 2018.` [DOI:
+10.1109/EMBC.2018.8513523](https://doi.org/10.1109/EMBC.2018.8513523)
+
+and also
+
+`M Ashoori, EM Dempsey, FB McDonald, JM O’Toole. "Sparse-Denoising Methods for Extracting
+Desaturation Transients in Cerebral Oxygenation Signals of Preterm Infants",
+Inf. Conf. IEEE Eng. Med. Biol. Society (EMBC), IEEE, Nov 2021.` [DOI:
+10.1109/EMBC46164.2021.9630560](https://doi.org/10.1109/EMBC46164.2021.9630560)
+
+Please cite one of the above references if using this code to generate new results. 
 
 # Requirements
 Matlab (R2017 or newer, [Mathworks](http://www.mathworks.co.uk/products/matlab/)) with the
@@ -31,7 +39,7 @@ Generate 10 rcSO<sub>2</sub> synthetic signals:
 # Licence
 
 ```
-Copyright (c) 2018, John M. O' Toole, University College Cork
+Copyright (c) 2018 and 2021, John M. O' Toole, University College Cork
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without modification,
@@ -64,19 +72,25 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 1. JM O' Toole, EM Dempsey, and GB Boylan "Extracting transients from cerebral oxygenation
    signals of preterm infants: a new singular-spectrum analysis method", Int. Conf. IEEE
-   Eng. Med. Biol. Society (EMBC), Honolulu, HI; IEEE, July 2018.
+   Eng. Med. Biol. Society (EMBC), Honolulu, HI; IEEE, July 2018. [DOI:
+   10.1109/EMBC.2018.8513523](https://doi.org/10.1109/EMBC.2018.8513523)
+   
+2. M Ashoori, EM Dempsey, FB McDonald, JM O’Toole. "Sparse-Denoising Methods for
+   Extracting Desaturation Transients in Cerebral Oxygenation Signals of Preterm Infants",
+   Inf. Conf. IEEE Eng. Med. Biol. Society (EMBC), IEEE, Nov 2021.` [DOI:
+   10.1109/EMBC46164.2021.9630560](https://doi.org/10.1109/EMBC46164.2021.9630560)
 
 
 # Contact
 
-John M. O' Toole
+John M. O'Toole
 
 Neonatal Brain Research Group,  
-INFANT: Irish Centre for Fetal and Neonatal Translational Research,  
+[INFANT](https://www.infantcentre.ie/): Irish Centre for Maternal and Child Health Research,  
 Department of Paediatrics and Child Health,  
 Room 2.19 Paediatrics Bld, Cork University Hospital,  
 University College Cork,  
 Ireland
 
-- email: j.otoole AT ieee.org
+- email: jotoole AT ucc DOT- ie
 
